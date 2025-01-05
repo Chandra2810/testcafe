@@ -32,8 +32,7 @@ async searchProduct() {
     await t.click(this.dropDownCard)
     for(let i =0; i<dropDownItemsLenth; i++){
         console.log(await this.dropDownItems.nth(i).textContent);
-    }
-    
+    }    
   }
 }
 

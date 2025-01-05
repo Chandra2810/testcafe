@@ -1,4 +1,4 @@
-import { NavigationBelt, NavigationFill } from "../pages/page";
+import { NavigationBelt, NavigationFill } from "../pages/navigationBelt";
 
 const navigationBelt = new NavigationBelt();
 const navigationFill = new NavigationFill();
